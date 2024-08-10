@@ -1,0 +1,20 @@
+.job-listing.card {
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+  }
+  
+  .job-listing .card-title {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .job-listing .card-text {
+    margin-bottom: 10px;
+  }
+  
+  .job-listing .btn-primary {
+    margin-top: 10px;
+  }
+  

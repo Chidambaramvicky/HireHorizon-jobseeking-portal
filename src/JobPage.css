@@ -1,0 +1,109 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.jobpage {
+  text-align: center;
+  
+}
+
+
+.login-btn {
+  background-color: #fff;
+  color: #333;
+}
+
+.register-btn {
+  background-color: #ff6347;
+  color: #fff;
+}
+
+.hero {
+  padding: 50px 20px;
+  background-color: #f0f0f0;
+}
+
+.filters {
+  margin: 20px 0;
+}
+.heron{
+  color: #e6c759;
+}
+.filter-btn {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.companies-grid {
+  display: flex;
+  flex-wrap: wrap;
+  border-width: 10px;
+  border-top: #ff6347;
+  justify-content: center;
+}
+
+.company-card {
+  width: 250px;
+  height: 210px;
+  margin: 20px;
+  padding: 5px;
+  background-color: white;
+  border: 2px solid #17153B;
+  border-radius: 10px;
+  text-align: left;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.company-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.company-info {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+}
+
+.company-info h2 {
+  margin: 10px 0;
+}
+
+.rating {
+  color: #555;
+}
+
+.tags {
+  margin-top: 10px;
+}
+
+.tag {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.view-all-btn {
+  margin: 20px;
+  padding: 10px 20px;
+  background-color: #e6c759;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.company-logo {
+  width: 120px;
+  height: 50px;
+  margin-bottom: 5px;
+}

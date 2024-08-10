@@ -1,0 +1,129 @@
+.service-details-container {
+    padding: 20px;
+  }
+  
+  .grid-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .key-features, .subscription-box {
+    flex: 1;
+  }
+  
+  .key-features {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .feature-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .feature-item h3 {
+    margin: 0 0 10px;
+  }
+  
+  .feature-item p {
+    margin: 0;
+  }
+  
+  .subscription-box {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  .subscription-options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  .subscription-option-box {
+    background-color: #ffffff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 2px;
+    text-align: center;
+    width: 100px;
+  }
+  
+  .subscription-option-box input[type="radio"] {
+    margin-bottom: 5px;
+  }
+  
+  .buy-now {
+    padding: 8px 16px;
+    background-color: #0073e6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    margin-top: 10px;
+  }
+  
+  .buy-now:hover {
+    background-color: #005bb5;
+  }
+  
+  .benefits-section {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .benefit-stats {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .stat-item {
+    flex: 1;
+  }
+  
+  .stat-circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #f2f2f2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+  }
+  
+  .stat-circle p {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .stat-circle span {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  .note {
+    font-size: 12px;
+    margin-top: 10px;
+    color: gray;
+  }
+  .discount-banner {
+    background-color: #f9f9f9;
+    padding: 10px;
+    text-align: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    color: #e53935; /* You can change the color to match your design */
+  }
+  

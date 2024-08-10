@@ -1,0 +1,58 @@
+.nav-link {
+    color: black;
+    text-decoration: none;
+    position: relative;
+    padding: 10px;
+  }
+  
+  .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: rgb(219, 15, 15);
+    transition: width 0.3s ease;
+  }
+  
+  .nav-link:hover::after,
+  .nav-link.active::after {
+    width: 100%;
+  }
+  /* Ensure that the navbar and links are styled appropriately */
+.AppBar {
+  height: 70px; /* Increase the height of the navbar */
+  padding: 0 20px; /* Add padding to the left and right of the navbar */
+}
+
+.ToolBar {
+  height: 100%; /* Ensure the Toolbar takes the full height of the AppBar */
+  display: flex;
+  align-items: center;
+}
+
+.nav-link {
+  color: black;
+  text-decoration: none;
+  position: relative;
+  padding: 20px; /* Increase padding for larger clickable areas */
+  font-size: 18px; /* Increase font size */
+  transition: color 0.3s ease;
+}
+
+.nav-link::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -5px; /* Adjust vertical position of the underline */
+  width: 0;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+}
+
+.nav-link:hover::after,
+.nav-link.active::after {
+  width: 100%;
+}

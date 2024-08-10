@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.jobsearch-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.search-bar {
+  display: flex;
+  margin: 20px;
+}
+
+.search-bar input {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 4px 0 0 4px;
+}
+
+.search-bar button {
+  padding: 10px 20px;
+  border: 1px solid #007bff;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 0 4px 4px 0;
+  cursor: pointer;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.filters {
+  width: 230px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 3px solid #17153B;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.filters:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.filter-group {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.filter-group:hover {
+  background-color: #e6e6e6;
+}
+
+.filter-group h4 {
+  margin-bottom: 10px;
+}
+
+.filter-group label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.job-listings {
+  flex: 1;
+  padding: 20px;
+}
+
+.job-card {
+  background-color: #f0f0f0;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 3px solid #17153B;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.job-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.job-card h2 {
+  margin: 0;
+}
+
+.job-card p {
+  margin: 5px 0;
+}
+
+.job-details {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+
+.job-tags {
+  margin: 10px 0;
+}
+
+.tag {
+  display: inline-block;
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #e0e0e0;
+  border-radius: 15px;
+  font-size: 12px;
+}
+
+.job-meta {
+  display: flex;
+  justify-content: space-between;
+  color: #555;
+}
+.clear-all2{
+  /* display: block; */
+  /* width: 100%; */
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.clear-all2:hover {
+  background-color: #0056b3;
+}

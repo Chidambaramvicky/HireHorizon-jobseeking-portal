@@ -1,0 +1,141 @@
+.services-container23 {
+    font-family: Arial, sans-serif;
+    padding-left: 30x;
+  }
+
+  .services-container23.h2{
+    padding-left: 10px;
+    font-style: italic;
+    
+  }
+  .para2{
+    text-align: center;
+    text-shadow: #FF6347;
+  }
+  .discount-banner23 {
+    background-color: yellow;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+  }
+  
+  .main-content23 {
+    text-align: center;
+    background-color:#17153B; 
+    color: white;
+    padding: 20px;
+  }
+  
+  .services23, .new-services23 {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+  }
+  
+  .service-item23 {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 250px;
+    height: 350px;
+    position: relative;
+  }
+  
+  .service-item23 .badge {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: orange;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+  }
+  
+  .recommended23 {
+    background-color: #FF8C00;
+  }
+  
+  .free-trial23{
+    background-color: #FF6347;
+  }
+  
+  .new23 {
+    background-color: red;
+  }
+  
+  .service-image23 {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    /* display: 'flex';
+    justifyContent: 'center';
+    alignItems: 'center'; */
+    /* padding-right: 1000px; */
+  }
+  
+  .contact-section23 {
+    display: flex;
+    justify-content: space-around;
+    background-color: #f2f2f2;
+    padding: 20px;
+    color: black;
+  }
+  
+  .contact-box23 {
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    background-color:#17153B;
+    color: white;
+    border-radius: 5px;
+  }
+  
+  .contact-box23 h3 {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form23 {
+    width: 40%;
+    text-align: left;
+    padding: 20px;
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  .contact-form23 h3 {
+    margin-bottom: 15px;
+  }
+  
+  .contact-form23 p {
+    margin-bottom: 20px;
+  }
+  
+  .contact-form23 label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  .contact-form23 input, .contact-form23 textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .contact-form23 button {
+    background-color:#17153B;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  
